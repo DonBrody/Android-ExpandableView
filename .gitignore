@@ -1,0 +1,9 @@
+.DS_Store
+Android.iml
+CustomKeyboard.iml
+local.properties
+gradlew
+gradlew.bat
+/build
+/.idea
+/.gradle
