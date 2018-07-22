@@ -57,6 +57,10 @@ class MainActivity: AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+        if (expandableButtonPanel.isExpanded) {
+            expandableButtonPanel.translateLayout()
+            return
+        }
         super.onBackPressed()
     }
 }
