@@ -42,12 +42,10 @@ android:configChanges="orientation|screenSize"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:visibility="invisible" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
 ```
-* Lastly, note that the view's visibility is initially set to invisible. The ExpandableView will handle its own visibility after its creation. Setting it initially to invisible ensures that the user will not see it after its creation (the component is created in its expanded state, then immediately collapsed).
 
 ## Next Steps
 Add the ExpandableView to any (and hopefully all :) of your projects, extend it with any views you'd like, and enjoy!
