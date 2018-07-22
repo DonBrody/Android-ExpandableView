@@ -16,7 +16,7 @@ The ExpandableView extends the [ResizableRelativeLayout](https://github.com/DonB
 
 *Important Notes*:
 * The ExpandableView ignores any calls to translateLayout that occur while it is expanding or collapsing.
-* Because ExpandableView extends [ResizableRelativeLayout](https://github.com/DonBrody/Android-ResizableRelativeLayout), you must add the following line to the manifest for each activity that utilizes this component (for more information see the [ResizableRelativeLayout README](https://github.com/DonBrody/Android-ResizableRelativeLayout):
+* Because ExpandableView extends [ResizableRelativeLayout](https://github.com/DonBrody/Android-ResizableRelativeLayout), you must add the following line to the manifest for each activity that utilizes this component (for more information see the [ResizableRelativeLayout README](https://github.com/DonBrody/Android-ResizableRelativeLayout)):
 ```
 android:configChanges="orientation|screenSize"
 ```
