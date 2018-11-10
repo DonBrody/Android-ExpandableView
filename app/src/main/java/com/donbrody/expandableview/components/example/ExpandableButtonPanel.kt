@@ -18,7 +18,7 @@ import com.donbrody.expandableview.components.expandableView.ExpandableView
 class ExpandableButtonPanel(context: Context, attr: AttributeSet): ExpandableView(context, attr) {
 
     init {
-        setPadding(0, 0, 0, 500.toDp)
+        setPadding(0, 0, 0, 100.toDp)
     }
 
     override fun configureSelf() {
