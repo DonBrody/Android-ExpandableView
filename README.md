@@ -9,7 +9,7 @@ Just download the project, open it in Android Studio, connect to a virtual or ph
 
 The demo is one activity (MainActivity.java). Below are GIF's of the functionality in both ladscape and portrait. Notice that in both orientations the ExpandableButtonPanel takes up 90% of the screen width. That is because it extends the [ResizableRelativeLayout](https://github.com/DonBrody/Android-ResizableRelativeLayout).
 
-<img height="300px" width="400px" src="https://s3.amazonaws.com/don-brody-images/ExpandableView+Landscape.gif"/>&nbsp;&nbsp;&nbsp;&nbsp;<img height="400px" width="300px" src="https://s3.amazonaws.com/don-brody-images/ExpandableView+Portrait.gif"/>
+<img height="300px" width="400px" src="/ExpandableView Landscape.gif?raw=true"/>&nbsp;&nbsp;&nbsp;&nbsp;<img height="400px" width="300px" src="/ExpandableView Portrait.gif?raw=true"/>
 
 ## How It Works
 The ExpandableView extends the [ResizableRelativeLayout](https://github.com/DonBrody/Android-ResizableRelativeLayout) and is responsible for expanding and collapsing itself on command. Simply call translateLayout to expand or collapse the component. It keeps track of its own state, so call isExpanded to determine if the view is expanded or collapsed. You may also register an ExpandableStateListener with the component to be notified of its state changes.
